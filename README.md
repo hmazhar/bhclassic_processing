@@ -3,11 +3,6 @@ Compiling
 - Requires Partio [https://github.com/wdas/partio/]
 - Requires zlib (availible in most linux distributions and homebrew)
 
-Install from source or from favorite package manager/repo if availible.
-- On mac use brew:
-<pre><code>brew install zlib partio
-</code></pre>
-
 Use cmake to generate project/make files and then compile
 
 
