@@ -1,20 +1,19 @@
 Compiling
 ===========
 - Requires Partio [https://github.com/wdas/partio/]
-- Requires zlib (availible in most linux distributions and homebrew
+- Requires zlib (availible in most linux distributions and homebrew)
 
 Install from source or from favorite package manager/repo if availible.
 - On mac use brew:
 <pre><code>brew install zlib partio
 </code></pre>
 
-Use cmake to generate make files and then run make
+Use cmake to generate project/make files and then compile
 
 
-bhclassic_to_ascii
-===========
+##bhclassic_to_ascii
 
-Convert a bhclassic point cloud to a ascii file
+Convert a Houdini bhclassic point cloud to a ascii file
 
 Arguments:
 - Input_Filename 
