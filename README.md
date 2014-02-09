@@ -1,11 +1,12 @@
-bgeo_to_raw
+bhclassic_to_ascii
 ===========
 
-Convert a bgeo to a ascii file
+Convert a bhclassic point cloud to a ascii file
 
 Arguments:
-Inputfilename 
-OutputFilename 
+Input filename 
+Output Filename 
 Delimiter (optional)
 
-Will output x, y, z data to OutputFilename
+
+Currently outputs position of every point in x y z format with an optional delimiter. 

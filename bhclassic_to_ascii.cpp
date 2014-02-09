@@ -7,8 +7,6 @@ using namespace Partio;
 
 Partio::ParticlesDataMutable *data;
 Partio::ParticleAttribute pHandle;
-Partio::ParticleAttribute vHandle;
-Partio::ParticleAttribute aHandle;
 string output_filename, delimiter = " ";
 
 int main(int argc, char *argv[]) {
@@ -22,7 +20,7 @@ int main(int argc, char *argv[]) {
 		output_filename = argv[2];
 		delimiter = argv[3];
 	} else {
-		cout << "NEED INPUT BGEO FILE, OUTPUT FILENAME AND OPTIONALLY DELIMITER, EXITING!" << endl;
+		cout << "NEED INPUT BHCLASSIC FILE, OUTPUT FILENAME AND OPTIONALLY DELIMITER, EXITING!" << endl;
 		return 0;
 	}
 
