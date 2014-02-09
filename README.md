@@ -13,12 +13,12 @@ Use cmake to generate project/make files and then compile
 
 ##bhclassic_to_ascii
 
-Convert a Houdini bhclassic point cloud to a ascii file
+Convert a Houdini bhclassic point cloud to an ascii file.
 
 Arguments:
-- Input_Filename 
-- Output_Filename 
-- Delimiter_(optional)
+- Input Filename 
+- Output Filename 
+- Delimiter (optional)
 
 <pre><code>//with custom delimiter
 bhclassic_to_ascii input.bhclassic output.txt ,
